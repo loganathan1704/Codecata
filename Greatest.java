@@ -13,7 +13,7 @@ public class Greatest
 	    {
 	       System.out.println(n1); 
 	    }
-	    else if(((n2>n1)&&(n2>n3)))
+	    else if((n2>n1)&&(n2>n3))
 	    {
 	        System.out.println(n2);
 	    }
