@@ -1,5 +1,5 @@
 import java.util.*;
-public class Alpha
+class Alpha
     {
         public static void main(String args[])
         {
@@ -7,7 +7,7 @@ public class Alpha
             Scanner s=new Scanner(System.in);
             System.out.println("Enter the alphabet");
             c=s.next().charAt(0);
-            if((c>='a'&&c<='z')||(c>='A'&&c<='Z'))
+            if((c>='a' && c<='z')||(c>='A' && c<='Z'))
             {
                 System.out.println("Alphabet");
             }
