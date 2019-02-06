@@ -1,5 +1,5 @@
 import java.util.*;
-public class Greatest
+class Greatest
 {
 	public static void main(String[] args) 
 	{
