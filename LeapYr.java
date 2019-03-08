@@ -8,11 +8,11 @@ public class LeapYr
 		year=y.nextInt();
 		if(year%4==0)
 		{
-		    System.out.println("yes");
+		    System.out.print("yes");
 		}
 		else
 		{
-		    System.out.println("no");
+		    System.out.print("no");
 		}
 		
 	}
