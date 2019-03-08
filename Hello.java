@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main
+class Hello
 {
 	public static void main(String[] args) 
 	{
