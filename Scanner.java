@@ -10,3 +10,4 @@ System.out.print("Enter string");
 a=s,next();
 System.out.print("n");
 System.out.print("a");
+}
