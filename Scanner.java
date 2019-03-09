@@ -4,15 +4,19 @@ class Main
 {
     public static void main(String args[])
     {
-    int n;
-    String a;
     Scanner s=new Scanner(System.in);
         //get the integer
     System.out.println("Enter integer");
-    n=s.nextInt();
+    int n=s.nextInt();
         //get the string
     System.out.println("Enter string");
-    a=s.next();
+     string a=s.nextLine();
+        //get the character
+      char a=s.next().charAt(0);
+        //get the long
+        long l = s.nextLong();
+        // get the double
+        double d = s.nextDouble(); 
     System.out.print("n");
     System.out.print("a");
     }
