@@ -1,13 +1,16 @@
 import java.util.*;
-class Scanner_ex
+class Main
 {
-int n;
-String a;
-Scanner s=new Scanner(System.in);
-System.out.print("Enter integer");
-n=s.nextInt();
-System.out.print("Enter string");
-a=s,next();
-System.out.print("n");
-System.out.print("a");
+    public static void main(String args[])
+    {
+    int n;
+    String a;
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter integer");
+    n=s.nextInt();
+    System.out.println("Enter string");
+    a=s.next();
+    System.out.print("n");
+    System.out.print("a");
+    }
 }
